@@ -25,4 +25,7 @@
 
     <!-- the padding on the top of the statusbar (usually 0) -->
     <dimen name="status_bar_padding_top">6dp</dimen>
+     <!-- Microns/ums (1000 um = 1mm) per pixel for the given device. If unspecified, UI that
+     relies on this value will not be sized correctly. -->
+    <item name="pixel_pitch" format="float" type="dimen">50.4</item>
 </resources>
